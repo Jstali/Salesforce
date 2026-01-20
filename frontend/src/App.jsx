@@ -9,6 +9,7 @@ import Contacts from './pages/Contacts';
 import Accounts from './pages/Accounts';
 import Sales from './pages/Sales';
 import Service from './pages/Service';
+import ServiceManagement from './pages/ServiceManagement';
 import Marketing from './pages/Marketing';
 import Commerce from './pages/Commerce';
 import GenerativeCanvas from './pages/GenerativeCanvas';
@@ -69,6 +70,7 @@ function AppRoutes() {
         <Route path="cases/:id" element={<RecordDetail objectType="case" api={casesAPI} />} />
         <Route path="sales" element={<Sales />} />
         <Route path="service" element={<Service />} />
+        <Route path="service-management" element={<ServiceManagement />} />
         <Route path="marketing" element={<Marketing />} />
         <Route path="commerce" element={<Commerce />} />
         <Route path="generative" element={<GenerativeCanvas />} />

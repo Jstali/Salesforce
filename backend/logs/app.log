@@ -521,3 +521,467 @@
 [2026-01-20 18:31:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
 [2026-01-20 18:31:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.01s | STATUS: success
 [2026-01-20 18:31:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.08s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.07s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.07s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.07s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.07s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:15:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:16:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:16:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:16:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:16:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:16:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/accounts | STATUS: pending
+[2026-01-20 19:16:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:16:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/accounts | STATUS: pending
+[2026-01-20 19:16:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/accounts | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:16:56] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:16:56] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:16:56] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:16:56] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:00] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:17:00] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:01] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:17:01] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:02] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:17:02] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:03] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:17:03] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:17:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:05] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:17:05] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:05] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:17:05] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:06] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:17:06] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:17:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/accounts | STATUS: pending
+[2026-01-20 19:17:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/accounts | STATUS: pending
+[2026-01-20 19:17:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:12] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:17:12] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:17:12] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:12] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:14] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:14] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:14] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:14] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:15] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/accounts | STATUS: pending
+[2026-01-20 19:17:15] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/accounts | STATUS: pending
+[2026-01-20 19:17:15] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:15] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:16] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:16] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:17:16] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:16] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:17] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases | STATUS: pending
+[2026-01-20 19:17:17] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:17] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases | STATUS: pending
+[2026-01-20 19:17:17] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:17:17] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:17:17] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:17:17] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:17] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:17:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:17:43] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:17:43] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:44] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:17:44] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:17:44] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:17:44] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:17:46] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:17:46] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:20:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:20:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.04s | STATUS: success
+[2026-01-20 19:20:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:20:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:20:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:20:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:28] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:20:28] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:20:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:20:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:20:31] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:20:31] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:32] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:20:32] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:20:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:20:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:20:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:20:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:20:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:35] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:20:35] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:20:36] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:20:36] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:21:44] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:21:44] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:23:23] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/quotations | STATUS: pending
+[2026-01-20 19:23:23] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/quotations | Status: 422 | Time: 0.02s | STATUS: success
+[2026-01-20 19:24:23] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/quotations | STATUS: pending
+[2026-01-20 19:24:23] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/quotations | Status: 400 | Time: 0.04s | STATUS: success
+[2026-01-20 19:24:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:24:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:24:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:24:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:24:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:24:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:24:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:24:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:25:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/quotations | STATUS: pending
+[2026-01-20 19:25:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/quotations | Status: 400 | Time: 0.01s | STATUS: success
+[2026-01-20 19:26:22] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:26:22] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:26:22] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:26:22] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.04s | STATUS: success
+[2026-01-20 19:26:22] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:26:22] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:26:22] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:26:22] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:27:00] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/quotations | STATUS: pending
+[2026-01-20 19:27:00] INFO | ACTION: CREATE_QUOTATION | USER: stalin | DETAILS: Quotation QT-20260120192700 created for £50000.0 | STATUS: success
+[2026-01-20 19:27:00] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/quotations | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:27:00] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:27:00] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:27:10] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:27:10] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:27:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:27:42] ERROR | ACTION: API_ERROR | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: error | ERROR: 'title' is an invalid keyword argument for Invoice
+[2026-01-20 19:27:48] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:27:48] ERROR | ACTION: API_ERROR | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: error | ERROR: 'title' is an invalid keyword argument for Invoice
+[2026-01-20 19:28:36] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:28:36] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:28:36] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:28:36] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:28:57] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:28:57] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:29:09] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:29:09] ERROR | ACTION: API_ERROR | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: error | ERROR: 'title' is an invalid keyword argument for Invoice
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.07s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.04s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:30:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:30:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:30:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:30:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:30:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:30:35] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:30:35] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:31:12] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:31:12] ERROR | ACTION: API_ERROR | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: error | ERROR: 'title' is an invalid keyword argument for Invoice
+[2026-01-20 19:32:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:32:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:32:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:32:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.04s | STATUS: success
+[2026-01-20 19:32:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:32:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:32:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:32:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:33:02] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:33:02] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:33:32] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:33:32] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/invoices | Status: 500 | Time: 0.02s | STATUS: success
+[2026-01-20 19:34:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:34:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/invoices | Status: 500 | Time: 0.03s | STATUS: success
+[2026-01-20 19:34:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:34:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/invoices | Status: 500 | Time: 0.01s | STATUS: success
+[2026-01-20 19:35:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:35:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:35:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.06s | STATUS: success
+[2026-01-20 19:35:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.05s | STATUS: success
+[2026-01-20 19:35:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:35:34] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:35:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:35:34] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:35:35] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:35:35] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:36:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/invoices | STATUS: pending
+[2026-01-20 19:36:04] INFO | ACTION: CREATE_INVOICE | USER: stalin | DETAILS: Invoice INV-20260120193604 created (Standard) for £75000.0 | STATUS: success
+[2026-01-20 19:36:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/invoices | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:36:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:36:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:36:06] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:36:06] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:36:24] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/accounts | STATUS: pending
+[2026-01-20 19:36:24] INFO | ACTION: CREATE_SERVICE_ACCOUNT | USER: stalin | DETAILS: Service account created for account 1 | STATUS: success
+[2026-01-20 19:36:24] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/accounts | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:36:24] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:36:24] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:36:26] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:36:26] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:25] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:37:25] INFO | ACTION: CREATE_WARRANTY_EXTENSION | USER: stalin | DETAILS: Warranty extension created for service account 1 | STATUS: success
+[2026-01-20 19:37:25] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/warranty-extensions | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:37:25] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:37:25] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:37:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:37:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:37:31] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:37:31] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:31] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:37:31] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:37:53] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:37:53] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:37:53] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:37:53] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:56] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:37:56] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:56] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:37:56] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:57] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:37:57] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:37:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:37:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:37:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:01] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:38:01] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:02] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:38:02] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:03] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:38:03] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:03] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:38:03] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:04] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:38:04] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:08] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:38:08] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:38:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:38:13] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:38:13] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:14] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:38:14] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:15] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:38:15] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:15] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:38:15] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:16] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:38:16] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:18] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:38:18] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:38:19] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:38:19] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:38:30] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:38:30] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:38:39] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:38:39] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:38:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:46] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:38:46] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:38:47] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:38:47] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:39:49] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:39:49] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:39:52] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:39:52] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:40:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:40:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:40:11] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:40:11] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:40:42] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:40:42] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:40:52] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/accounts | STATUS: pending
+[2026-01-20 19:40:52] INFO | ACTION: CREATE_SERVICE_ACCOUNT | USER: stalin | DETAILS: Service account created for account 1 | STATUS: success
+[2026-01-20 19:40:52] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/accounts | Status: 200 | Time: 0.04s | STATUS: success
+[2026-01-20 19:40:52] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:40:52] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:41:51] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:41:51] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:41:55] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:41:55] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:41:57] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:41:57] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:41:57] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:41:57] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:41:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:41:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:00] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:42:00] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:42:01] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:42:01] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:42:06] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:42:06] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:42:06] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:42:06] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:42:06] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:42:06] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:42:06] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:06] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:08] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:42:08] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:08] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:42:08] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:14] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:42:14] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:19] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:42:19] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:42:25] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:42:25] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:42:26] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:42:26] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:42:46] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:42:46] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:42:46] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:42:46] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 405 | Time: 0.00s | STATUS: success
+[2026-01-20 19:43:50] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:43:50] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/auth/me | STATUS: pending
+[2026-01-20 19:43:50] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.04s | STATUS: success
+[2026-01-20 19:43:50] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/auth/me | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:43:50] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:43:50] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:43:50] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:43:50] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:43:53] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:43:53] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:44:51] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: POST /api/service/slas | STATUS: pending
+[2026-01-20 19:44:51] INFO | ACTION: CREATE_SLA | USER: stalin | DETAILS: SLA 'Premium Support' created for service account 1 | STATUS: success
+[2026-01-20 19:44:51] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: POST /api/service/slas | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:44:51] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:44:51] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:47:23] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:47:23] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:23] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:47:23] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:24] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:47:24] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:24] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:47:24] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:25] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:47:25] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:26] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:47:26] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:27] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:47:27] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:28] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:47:28] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:32] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:47:32] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:33] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:47:33] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:35] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:47:35] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:38] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases | STATUS: pending
+[2026-01-20 19:47:38] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:38] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases | STATUS: pending
+[2026-01-20 19:47:38] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:54] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:47:54] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/quotations | STATUS: pending
+[2026-01-20 19:47:54] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:54] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/quotations | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:56] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/invoices | STATUS: pending
+[2026-01-20 19:47:56] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/invoices | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:57] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/accounts | STATUS: pending
+[2026-01-20 19:47:57] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/accounts | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:57] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/warranty-extensions | STATUS: pending
+[2026-01-20 19:47:57] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/warranty-extensions | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:58] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/service/slas | STATUS: pending
+[2026-01-20 19:47:58] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/service/slas | Status: 200 | Time: 0.01s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/leads | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/leads | Status: 200 | Time: 0.02s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/opportunities | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/cases/by-priority | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/dashboard/recent-records | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/opportunities | Status: 200 | Time: 0.03s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/cases/by-priority | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/dashboard/recent-records | Status: 200 | Time: 0.00s | STATUS: success
+[2026-01-20 19:47:59] INFO | ACTION: API_REQUEST | USER: unknown | DETAILS: GET /api/contacts | STATUS: pending
+[2026-01-20 19:47:59] INFO | ACTION: API_RESPONSE | USER: unknown | DETAILS: GET /api/contacts | Status: 200 | Time: 0.00s | STATUS: success

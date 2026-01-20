@@ -235,3 +235,110 @@ class RecentRecord(Base):
     record_id = Column(Integer, nullable=False)
     record_name = Column(String(255))
     accessed_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class ServiceAccount(Base):
+    __tablename__ = "service_accounts"
+
+    id = Column(Integer, primary_key=True, index=True)
+    account_id = Column(Integer, ForeignKey("accounts.id"), nullable=False)
+    warranty_status = Column(String(50), default="Active")  # Active, Expired, Extended
+    warranty_start_date = Column(DateTime(timezone=True))
+    warranty_end_date = Column(DateTime(timezone=True))
+    warranty_extended_until = Column(DateTime(timezone=True))
+    service_level = Column(String(50))  # Gold, Silver, Bronze
+    description = Column(Text)
+    owner_id = Column(Integer, ForeignKey("users.id"))
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+
+    # Relationships
+    account = relationship("Account")
+    owner = relationship("User")
+
+
+class ServiceLevelAgreement(Base):
+    __tablename__ = "service_level_agreements"
+
+    id = Column(Integer, primary_key=True, index=True)
+    service_account_id = Column(Integer, ForeignKey("service_accounts.id"), nullable=False)
+    name = Column(String(255), nullable=False)
+    response_time_hours = Column(Integer)  # Hours to respond
+    resolution_time_hours = Column(Integer)  # Hours to resolve
+    uptime_percentage = Column(Float, default=99.9)
+    support_hours = Column(String(100))  # 24/7, 9-5, etc.
+    description = Column(Text)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    # Relationships
+    service_account = relationship("ServiceAccount")
+
+
+class Quotation(Base):
+    __tablename__ = "quotations"
+
+    id = Column(Integer, primary_key=True, index=True)
+    quotation_number = Column(String(50), unique=True, index=True)
+    account_id = Column(Integer, ForeignKey("accounts.id"), nullable=False)
+    service_account_id = Column(Integer, ForeignKey("service_accounts.id"))
+    title = Column(String(255), nullable=False)
+    description = Column(Text)
+    amount = Column(Float, default=0)
+    tax_amount = Column(Float, default=0)
+    total_amount = Column(Float, default=0)
+    status = Column(String(50), default="Draft")  # Draft, Sent, Accepted, Rejected
+    valid_until = Column(DateTime(timezone=True))
+    owner_id = Column(Integer, ForeignKey("users.id"))
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+
+    # Relationships
+    account = relationship("Account")
+    service_account = relationship("ServiceAccount")
+    owner = relationship("User")
+
+
+class Invoice(Base):
+    __tablename__ = "invoices"
+
+    id = Column(Integer, primary_key=True, index=True)
+    invoice_number = Column(String(50), unique=True, index=True)
+    account_id = Column(Integer, ForeignKey("accounts.id"), nullable=False)
+    service_account_id = Column(Integer, ForeignKey("service_accounts.id"))
+    quotation_id = Column(Integer, ForeignKey("quotations.id"))
+    invoice_type = Column(String(50), default="Standard")  # Standard, Proforma, Credit Note
+    description = Column(Text)
+    amount = Column(Float, default=0)
+    tax_amount = Column(Float, default=0)
+    total_amount = Column(Float, default=0)
+    status = Column(String(50), default="Draft")  # Draft, Sent, Paid, Overdue
+    invoice_date = Column(DateTime(timezone=True))
+    due_date = Column(DateTime(timezone=True))
+    paid_date = Column(DateTime(timezone=True))
+    owner_id = Column(Integer, ForeignKey("users.id"))
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+
+    # Relationships
+    account = relationship("Account")
+    service_account = relationship("ServiceAccount")
+    quotation = relationship("Quotation")
+    owner = relationship("User")
+
+
+class WarrantyExtension(Base):
+    __tablename__ = "warranty_extensions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    service_account_id = Column(Integer, ForeignKey("service_accounts.id"), nullable=False)
+    extension_start_date = Column(DateTime(timezone=True), nullable=False)
+    extension_end_date = Column(DateTime(timezone=True), nullable=False)
+    extension_cost = Column(Float, default=0)
+    status = Column(String(50), default="Active")  # Active, Expired, Cancelled
+    description = Column(Text)
+    owner_id = Column(Integer, ForeignKey("users.id"))
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    # Relationships
+    service_account = relationship("ServiceAccount")
+    owner = relationship("User")

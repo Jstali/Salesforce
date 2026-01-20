@@ -117,4 +117,38 @@ export const activitiesAPI = {
   create: (data) => api.post('/api/activities', data),
 };
 
+// Service
+export const serviceAPI = {
+  // Service Accounts
+  listServiceAccounts: (skip = 0, limit = 25) =>
+    api.get('/api/service/accounts', { params: { skip, limit } }),
+  createServiceAccount: (data) => api.post('/api/service/accounts', data),
+  getServiceAccount: (id) => api.get(`/api/service/accounts/${id}`),
+  updateServiceAccount: (id, data) => api.put(`/api/service/accounts/${id}`, data),
+
+  // Quotations
+  listQuotations: (skip = 0, limit = 25) =>
+    api.get('/api/service/quotations', { params: { skip, limit } }),
+  createQuotation: (data) => api.post('/api/service/quotations', data),
+  getQuotation: (id) => api.get(`/api/service/quotations/${id}`),
+  updateQuotation: (id, data) => api.put(`/api/service/quotations/${id}`, data),
+
+  // Invoices
+  listInvoices: (skip = 0, limit = 25) =>
+    api.get('/api/service/invoices', { params: { skip, limit } }),
+  createInvoice: (data) => api.post('/api/service/invoices', data),
+  getInvoice: (id) => api.get(`/api/service/invoices/${id}`),
+  updateInvoice: (id, data) => api.put(`/api/service/invoices/${id}`, data),
+
+  // Warranty Extensions
+  listWarrantyExtensions: (skip = 0, limit = 25) =>
+    api.get('/api/service/warranty-extensions', { params: { skip, limit } }),
+  createWarrantyExtension: (data) => api.post('/api/service/warranty-extensions', data),
+
+  // SLAs
+  listSLAs: (skip = 0, limit = 25) =>
+    api.get('/api/service/slas', { params: { skip, limit } }),
+  createSLA: (data) => api.post('/api/service/slas', data),
+};
+
 export default api;
