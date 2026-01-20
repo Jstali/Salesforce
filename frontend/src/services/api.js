@@ -1,0 +1,120 @@
+import axios from 'axios';
+
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
+const api = axios.create({
+  baseURL: API_BASE_URL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
+// Add auth token to requests
+api.interceptors.request.use((config) => {
+  const token = localStorage.getItem('token');
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
+
+// Handle auth errors
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      window.location.href = '/login';
+    }
+    return Promise.reject(error);
+  }
+);
+
+// Auth
+export const authAPI = {
+  login: (credentials) => api.post('/api/auth/login', credentials),
+  register: (userData) => api.post('/api/auth/register', userData),
+  getCurrentUser: () => api.get('/api/auth/me'),
+  getUsers: () => api.get('/api/auth/users'),
+};
+
+// Accounts
+export const accountsAPI = {
+  list: (params) => api.get('/api/accounts', { params }),
+  get: (id) => api.get(`/api/accounts/${id}`),
+  create: (data) => api.post('/api/accounts', data),
+  update: (id, data) => api.put(`/api/accounts/${id}`, data),
+  delete: (id) => api.delete(`/api/accounts/${id}`),
+  changeOwner: (id, ownerId) => api.put(`/api/accounts/${id}/change-owner?owner_id=${ownerId}`),
+};
+
+// Contacts
+export const contactsAPI = {
+  list: (params) => api.get('/api/contacts', { params }),
+  get: (id) => api.get(`/api/contacts/${id}`),
+  create: (data, checkDuplicates = false) =>
+    api.post(`/api/contacts?check_duplicates=${checkDuplicates}`, data),
+  update: (id, data) => api.put(`/api/contacts/${id}`, data),
+  delete: (id) => api.delete(`/api/contacts/${id}`),
+  changeOwner: (id, ownerId) => api.put(`/api/contacts/${id}/change-owner?owner_id=${ownerId}`),
+  checkDuplicates: (email, phone) =>
+    api.post('/api/contacts/check-duplicates', null, { params: { email, phone } }),
+};
+
+// Leads
+export const leadsAPI = {
+  list: (params) => api.get('/api/leads', { params }),
+  get: (id) => api.get(`/api/leads/${id}`),
+  create: (data, checkDuplicates = false, autoAssign = true) =>
+    api.post(`/api/leads?check_duplicates=${checkDuplicates}&auto_assign=${autoAssign}`, data),
+  update: (id, data) => api.put(`/api/leads/${id}`, data),
+  delete: (id) => api.delete(`/api/leads/${id}`),
+  convert: (id, data) => api.post(`/api/leads/${id}/convert`, data),
+  changeOwner: (id, ownerId) => api.put(`/api/leads/${id}/change-owner?owner_id=${ownerId}`),
+  checkDuplicates: (email, phone) =>
+    api.post('/api/leads/check-duplicates', null, { params: { email, phone } }),
+};
+
+// Opportunities
+export const opportunitiesAPI = {
+  list: (params) => api.get('/api/opportunities', { params }),
+  get: (id) => api.get(`/api/opportunities/${id}`),
+  create: (data) => api.post('/api/opportunities', data),
+  update: (id, data) => api.put(`/api/opportunities/${id}`, data),
+  delete: (id) => api.delete(`/api/opportunities/${id}`),
+  changeOwner: (id, ownerId) => api.put(`/api/opportunities/${id}/change-owner?owner_id=${ownerId}`),
+  updateStage: (id, stage) => api.put(`/api/opportunities/${id}/stage?stage=${stage}`),
+};
+
+// Cases
+export const casesAPI = {
+  list: (params) => api.get('/api/cases', { params }),
+  get: (id) => api.get(`/api/cases/${id}`),
+  create: (data, autoAssign = true) =>
+    api.post(`/api/cases?auto_assign=${autoAssign}`, data),
+  update: (id, data) => api.put(`/api/cases/${id}`, data),
+  delete: (id) => api.delete(`/api/cases/${id}`),
+  escalate: (id) => api.post(`/api/cases/${id}/escalate`),
+  merge: (caseIds, masterCaseId) =>
+    api.post('/api/cases/merge', { case_ids: caseIds, master_case_id: masterCaseId }),
+  changeOwner: (id, ownerId) => api.put(`/api/cases/${id}/change-owner?owner_id=${ownerId}`),
+  getByPriority: (ownerId) => api.get('/api/cases/by-priority', { params: { owner_id: ownerId } }),
+  checkSLA: () => api.post('/api/cases/check-sla'),
+};
+
+// Dashboard
+export const dashboardAPI = {
+  getStats: () => api.get('/api/dashboard/stats'),
+  getRecentRecords: (limit = 10) => api.get('/api/dashboard/recent-records', { params: { limit } }),
+  search: (q, limit = 20) => api.get('/api/dashboard/search', { params: { q, limit } }),
+};
+
+// Activities
+export const activitiesAPI = {
+  list: (recordType, recordId, skip = 0, limit = 50) =>
+    api.get(`/api/activities/${recordType}/${recordId}`, { params: { skip, limit } }),
+  create: (data) => api.post('/api/activities', data),
+};
+
+export default api;

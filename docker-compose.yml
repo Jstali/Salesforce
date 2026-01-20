@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: salesforce-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///./data/app.db
+      - SECRET_KEY=${SECRET_KEY:-your-secret-key-change-in-production}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: salesforce-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # Development only - seed the database
+  seed:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: salesforce-seed
+    command: python seed.py
+    volumes:
+      - ./backend/data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///./data/app.db
+    depends_on:
+      - backend
+    profiles:
+      - seed
